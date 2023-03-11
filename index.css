@@ -1,0 +1,551 @@
+*{
+    color: rgb(27, 22, 66);
+    
+}
+
+
+p{
+    color: rgb(63, 75, 75);
+    font-weight: 400;
+}
+h1{
+    color: rgb(27, 22, 66);
+}
+/* TOP BUTTON */
+.top-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(27, 22, 66);
+    color: white;
+    border: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    scroll-behavior: smooth;
+}
+.top-btn:hover{
+    background-color: rgba(108, 108, 233, 0.849);
+    box-shadow: 2px 5px 5px grey;
+}
+
+#read-btn{
+    background-color: rgb(27, 22, 66) ;
+    color:white;
+    font-weight: 600;
+    margin-top: 25px;
+}
+/* NAVIGATION STYLING */
+.navbar{
+    background-color:rgb(238, 246, 252);
+}
+#nav-links li a{
+    color:rgb(27, 22, 66);
+}
+#start-btn{
+    background-color: rgb(40, 29, 114);
+    color: white;
+}
+#start-btn:hover{
+    background-color: rgb(10, 63, 177);
+}
+/* HEADER STYLING */
+#header-container{
+    background:linear-gradient(40deg, rgb(238, 246, 252), white );
+}
+
+#request-btn{
+    background-color: white;
+    color:rgb(40, 29, 114) ;
+}
+#request-btn:hover{
+    background-color: rgb(160, 160, 252);
+}
+
+#play-btn{
+    color: yellow;
+    position: relative;
+    top: -250px;
+    right: -250px;
+    font-size: 100px;
+}
+
+/* MAIN PAGE */
+/* APP DETAILS STYLING */
+#app-detail:hover{
+    color:orangered;
+    background-color: white ;
+}
+
+
+/* SECTION-2 CONTAINER STYLING */
+#section-2{
+    background-color: rgb(238, 246, 252);
+}
+
+#section-2 p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* section-6 edozzier team images */
+.dotted-1{
+    border: 1px dotted white;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    position: relative;
+}
+.dotted-2{
+    border: 1px dotted white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+.dotted-3{
+    border: 1px dotted white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -75px;
+}
+.dorcas-img{
+    position: relative;
+    left: 40 ;
+    top: 30;
+    border-radius: 100%;
+    width: 100%; 
+   
+}
+
+.jacob{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top: 60px;
+    left: -5px;
+    z-index: 1000;
+    
+}
+.favour{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top: 300px;
+    left: 0px;
+}
+.dorcas{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top:-30px;
+    left: 80px;
+}
+.wumi{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.sabelo{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top: 200px;
+    left: 35px;
+}
+.titialamu{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    top: 50px;
+    left: -20px;
+}
+
+
+/* RESPONSIVENESS */
+
+/* STYLING FOR DESKTOP DEVICE */
+@media (min-width:768px) {
+    /*Header  */
+    #header-contents h1{
+        font-size: 53px;
+        line-height: 64px;
+        padding-left: 100px;
+    }
+    #header-contents p{
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(43, 42, 72);
+        padding-right: 50px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+    }
+    #header-contents span{
+        margin-left: 100px;
+    }
+    #request-btn{
+        margin-left: 100px;
+    }
+/* Section-1 Desktop styling */
+   #abt h2{
+    font-size: 48px;
+    line-height: 57px;
+    padding: 0 250px 15px 250px;
+   }
+   #abt p{
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 0 300px;
+   }
+
+/* section 2 destop styling */
+/* Edozzier services */
+   #section-2 h2{
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -2.88px ;
+   }
+   #solutions{
+    padding-top: 80px;
+   }
+
+/* Section-3 */
+    #why-edozzier h2 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight:700;
+    }
+    #why-edozzier-card h4 {
+    font-size: 20px;
+    letter-spacing: -0.48px;
+    }
+    #why-edozzier-card p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+/* Section-4 */
+    #testimonial h2{
+        font-size: 48px;
+        line-height: 57.6px;
+        letter-spacing: -2.88px; 
+    }
+
+/* section-5 */
+    #management h2{
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+    #management p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #management a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    #management a:hover{
+        color: rgb(89, 89, 245);
+    }
+
+    #mgt-card{
+        position: relative;
+        top: -70px;
+    }
+    #mgt-card div{
+        display: flex;
+        padding: 15px 20px 15px 20px;
+    }
+
+        
+/* section-6 */
+/* Edozzier team */
+    #edozzier-team{
+        background-color: rgb(27, 22, 66) ;
+        color: white;
+    }
+    #edozzier-team p{
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+    #edozzier-team h2{
+        font-size: 48px;
+        line-height: 57.6px;
+        padding-right: 100px;
+    }
+    #amazon{
+        width: 20%;
+    }
+    #andela{
+        width: 20%;
+    }
+    #microsoft{
+        width: 20%;
+    }
+
+    /* section-7 */
+    #save-time h2{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    #save-time p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #default-img-card{
+        padding-bottom: 200px;
+    }
+    #default-img {
+        position: relative;
+        top: 50px;
+        left: -100px;
+    }
+
+    #footer div{
+        padding-left: 30px;
+    }
+
+}
+
+
+/* STYLING FOR MOBILE DEVICE */
+@media (max-width:768px){
+    /*Header  */
+    #header-contents{
+        text-align: center;
+    }
+    #header-contents span{
+        font-size: 12px;
+        
+    }
+    #header-contents h1{
+        padding-top: 10px;
+        font-size: 33.6px;
+        line-height: 33.6px;
+    }
+    #header-contents p{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px;
+        
+    }
+
+    #play-btn{
+        color: yellow;
+        position: relative;
+        top: -200px;
+        right: -150px;
+        font-size: 100px;
+    }
+
+/* Mobile device header image */
+    #header-img{
+        width: 450px;
+        height: 250px;
+        margin-top: 50px;
+    }
+/* Section-1 mobile styling */
+#abt h2{
+    font-size: 28px;
+    line-height: 33.6px;
+   }
+   #abt p{
+    font-size: 15px;
+    line-height: 22.5px;
+    
+   }
+/* Section-2 mobile styling */
+/* Edozzier services */
+#section-2 h2{
+    font-size: 28px;
+    line-height: 33.6px;
+   }
+   #solutions{
+    padding-top: 10px;
+   }
+   .solution-img{
+    padding-top: 12px;
+   }
+
+/* sectiion-3 */
+/* Section-3 */
+    #why-edozzier h2 {
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight:700;
+    }
+    #why-edozzier-card h4 {
+    font-size: 20px;
+    letter-spacing: -0.42px;
+    }
+    #why-edozzier-card p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* section-5 */
+
+    #mgt-card{
+        position: relative;
+        top: -50px;
+    }
+    #mgt-card div{
+        padding: 15px 20px 15px 20px;
+    }
+    #management h2{
+        font-size: 28px;
+        line-height: 33.6px;
+        
+    }
+    #management span{
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: bold;
+    
+    }
+
+    /* section-6 */
+/* Edozzier team */
+#edozzier-team{
+    background-color: rgb(27, 22, 66) ;
+    color: white;
+}
+#edozzier-team p{
+    font-size: 14px;
+    line-height: 21px;
+}
+#edozzier-team h2{
+    font-size: 23.8px;
+    line-height: 28.56px;
+    
+}
+ #amazon{
+    width: 40%;
+    margin-right: 20px;
+}
+ #andela{
+    width: 40%;
+    margin-right: 20px;
+}
+.jacob{
+    width: 60px;
+}
+/* section-7 */
+#save-time h2{
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: -1.12px;
+    font-weight: bolder;
+}
+#save-time p{
+    font-size: 14px;
+    line-height: 21px;
+}
+#default-img-card{
+    padding-bottom: 200px;
+}
+#default-img {
+    position: relative;
+    top: 150px;
+    left: -200px;
+}
+    /* #mgt-p{
+        padding-top: 30px; */
+    }
+
+/* ANNIMATION */
+/* HAEDER IMAGE */
+    @keyframes slideIn {
+        from{
+            transform: translateX(20px);
+        }
+        to{
+            transform: translateX(0);
+        }
+    }
+    .head-img{
+        animation-name: slideIn;
+        animation-duration: 3s;
+        animation-delay: 0;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+    }
+    /* ABOUT HEADING */
+    @keyframes slideUp {
+        from{
+            transform: translateY(20px);
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
+    .abt-ani{
+        animation-name: slideUp;
+        animation-duration: 3s;
+        animation-delay: 0;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+    }
+
+        /* the guy head animation */
+      @keyframes MoveUpDown {
+        0%,{
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-80px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+      }
+      .edozzierSup {
+        animation: MoveUpDown 5s linear infinite;
+        border-radius: 10px;
+      }
+
+      /* default image animation. the last images on webpage */
+      @keyframes MoveUpDown {
+        0%,{
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-80px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+      }
+      #default-img {
+        animation: MoveUpDown 10s linear infinite;
+        border-radius: 10px;
+      }
+      @keyframes MoveUpDown1 {
+        0%,{
+          transform: translateY(-60px);
+        }
+        50% {
+          transform: translateY(-70px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+      }
+      #default-img1 {
+        animation: MoveUpDown1 3s linear infinite;
+        border-radius: 10px;
+      }
+      
